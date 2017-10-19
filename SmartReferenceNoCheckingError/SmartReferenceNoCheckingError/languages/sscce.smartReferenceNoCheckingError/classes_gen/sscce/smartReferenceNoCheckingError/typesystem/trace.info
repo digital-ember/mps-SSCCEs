@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,20,0" name="sscce.smartReferenceNoCheckingError.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ff58a230-bdf1-429b-986a-4f513bc146af(sscce.smartReferenceNoCheckingError.typesystem)/2730724568516106424">
+    <file name="check_Def_NonTypesystemRule.java">
+      <node id="2730724568516106424" at="18,50,19,157" concept="3" />
+      <node id="2730724568516106424" at="21,68,22,102" concept="3" />
+      <node id="2730724568516106424" at="24,30,25,17" concept="3" />
+      <node id="2730724568516106424" at="14,0,16,0" concept="0" trace="check_Def_NonTypesystemRule#()V" />
+      <node id="2730724568516106424" at="16,0,18,0" concept="2" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="2730724568516106424" at="18,0,21,0" concept="2" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2730724568516106424" at="21,0,24,0" concept="2" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="2730724568516106424" at="24,0,27,0" concept="2" trace="overrides#()Z" />
+      <scope id="2730724568516106424" at="14,40,14,40" />
+      <scope id="2730724568516106425" at="16,116,16,116" />
+      <scope id="2730724568516106424" at="18,50,19,157" />
+      <scope id="2730724568516106424" at="21,68,22,102" />
+      <scope id="2730724568516106424" at="24,30,25,17" />
+      <scope id="2730724568516106424" at="14,0,16,0" />
+      <scope id="2730724568516106424" at="16,0,18,0">
+        <var name="def" id="2730724568516106424" />
+        <var name="status" id="2730724568516106424" />
+        <var name="typeCheckingContext" id="2730724568516106424" />
+      </scope>
+      <scope id="2730724568516106424" at="18,0,21,0" />
+      <scope id="2730724568516106424" at="21,0,24,0">
+        <var name="argument" id="2730724568516106424" />
+      </scope>
+      <scope id="2730724568516106424" at="24,0,27,0" />
+      <unit id="2730724568516106424" at="13,0,28,0" name="sscce.smartReferenceNoCheckingError.typesystem.check_Def_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:ff58a230-bdf1-429b-986a-4f513bc146af(sscce.smartReferenceNoCheckingError.typesystem)/2730724568516106437">
+    <file name="check_Ref_NonTypesystemRule.java">
+      <node id="2730724568516152731" at="19,116,20,339" concept="1" />
+      <node id="2730724568516289240" at="20,339,21,215" concept="1" />
+      <node id="2730724568516106437" at="23,50,24,157" concept="3" />
+      <node id="2730724568516106437" at="26,68,27,102" concept="3" />
+      <node id="2730724568516106437" at="29,30,30,17" concept="3" />
+      <node id="2730724568516106437" at="17,0,19,0" concept="0" trace="check_Ref_NonTypesystemRule#()V" />
+      <node id="2730724568516106437" at="23,0,26,0" concept="2" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2730724568516106437" at="26,0,29,0" concept="2" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="2730724568516106437" at="29,0,32,0" concept="2" trace="overrides#()Z" />
+      <node id="2730724568516106437" at="19,0,23,0" concept="2" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="2730724568516106437" at="17,40,17,40" />
+      <scope id="2730724568516106437" at="23,50,24,157" />
+      <scope id="2730724568516106437" at="26,68,27,102" />
+      <scope id="2730724568516106437" at="29,30,30,17" />
+      <scope id="2730724568516106437" at="17,0,19,0" />
+      <scope id="2730724568516106438" at="19,116,21,215" />
+      <scope id="2730724568516106437" at="23,0,26,0" />
+      <scope id="2730724568516106437" at="26,0,29,0">
+        <var name="argument" id="2730724568516106437" />
+      </scope>
+      <scope id="2730724568516106437" at="29,0,32,0" />
+      <scope id="2730724568516106437" at="19,0,23,0">
+        <var name="ref" id="2730724568516106437" />
+        <var name="status" id="2730724568516106437" />
+        <var name="typeCheckingContext" id="2730724568516106437" />
+      </scope>
+      <unit id="2730724568516106437" at="16,0,33,0" name="sscce.smartReferenceNoCheckingError.typesystem.check_Ref_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+
