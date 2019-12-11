@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="002a2eae-91d4-4d9a-a197-cf7eb077d667" name="oed">
+      <concept id="3288775875777110557" name="oed.structure.ListWithBullets2" flags="ng" index="3gdroA">
+        <child id="3288775875777110558" name="items" index="3gdro_" />
+      </concept>
       <concept id="1215926721765975177" name="oed.structure.ListWithBulletAndCustomItemEditor" flags="ng" index="1j6Z9w">
         <child id="1215926721765975060" name="items" index="1j6ZbX" />
       </concept>
@@ -14,6 +17,7 @@
         <child id="1215926721765975060" name="items" index="1j6ZbY" />
       </concept>
       <concept id="1215926721765975057" name="oed.structure.Root" flags="ng" index="1j6ZbS">
+        <child id="3288775875777120775" name="listWithBullet2" index="3gdtSW" />
         <child id="1215926721765975179" name="list" index="1j6Z9y" />
         <child id="1215926721765975181" name="listWithBullet" index="1j6Z9$" />
         <child id="1215926721765975184" name="listWithBulletAndCustomEditor" index="1j6Z9T" />
@@ -60,6 +64,17 @@
         <property role="TrG5h" value="banana" />
       </node>
       <node concept="1j6ZbU" id="13vPI_3LrYw" role="1j6ZbX">
+        <property role="TrG5h" value="orange" />
+      </node>
+    </node>
+    <node concept="3gdroA" id="2Q$53JX$zWk" role="3gdtSW">
+      <node concept="1j6ZbU" id="2Q$53JX$zWm" role="3gdro_">
+        <property role="TrG5h" value="apple" />
+      </node>
+      <node concept="1j6ZbU" id="2Q$53JX$zWo" role="3gdro_">
+        <property role="TrG5h" value="banana" />
+      </node>
+      <node concept="1j6ZbU" id="2Q$53JX$OuH" role="3gdro_">
         <property role="TrG5h" value="orange" />
       </node>
     </node>

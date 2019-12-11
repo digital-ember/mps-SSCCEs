@@ -54,6 +54,12 @@
       <property role="20kJfa" value="listWithBullet" />
       <ref role="20lvS9" node="13vPI_3L2i7" resolve="ListWithBullet" />
     </node>
+    <node concept="1TJgyj" id="2Q$53JX$sC7" role="1TKVEi">
+      <property role="IQ2ns" value="3288775875777120775" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="listWithBullet2" />
+      <ref role="20lvS9" node="2Q$53JX$q8t" resolve="ListWithBullets2" />
+    </node>
     <node concept="1TJgyj" id="13vPI_3L2ig" role="1TKVEi">
       <property role="IQ2ns" value="1215926721765975184" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -102,6 +108,18 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="13vPI_3L2ia" role="1TKVEi">
       <property role="IQ2ns" value="1215926721765975060" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="13vPI_3L2gj" resolve="Item" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2Q$53JX$q8t">
+    <property role="EcuMT" value="3288775875777110557" />
+    <property role="TrG5h" value="ListWithBullets2" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2Q$53JX$q8u" role="1TKVEi">
+      <property role="IQ2ns" value="3288775875777110558" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="items" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
