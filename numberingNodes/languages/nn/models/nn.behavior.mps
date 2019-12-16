@@ -352,11 +352,5 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="4mEQGI3EMrK">
-    <ref role="13h7C2" to="1sp2:4mEQGI3E2Ir" resolve="Section" />
-    <node concept="13hLZK" id="4mEQGI3EMrL" role="13h7CW">
-      <node concept="3clFbS" id="4mEQGI3EMrM" role="2VODD2" />
-    </node>
-  </node>
 </model>
 

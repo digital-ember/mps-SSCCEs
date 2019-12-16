@@ -26,8 +26,14 @@
     </node>
     <node concept="360J5g" id="4mEQGI3FAM2" role="360J5D">
       <property role="3CGM02" value="2" />
+      <node concept="360J5g" id="4mEQGI3FCjJ" role="360J5l">
+        <property role="3CGM02" value="2" />
+      </node>
       <node concept="360J5g" id="4mEQGI3FAM5" role="360J5l">
         <property role="3CGM02" value="1" />
+      </node>
+      <node concept="360J5g" id="4mEQGI3FCms" role="360J5l">
+        <property role="3CGM02" value="3" />
       </node>
     </node>
   </node>
