@@ -14,6 +14,7 @@
         <child id="5020065302279891874" name="chapters" index="360J5D" />
       </concept>
       <concept id="6709577374325675279" name="nn.structure.IAmNumbered" flags="ng" index="3CGM0t">
+        <property id="824139786866919533" name="numOfTabs" index="25YqC" />
         <property id="6709577374325675280" name="id" index="3CGM02" />
         <child id="5020065302279891870" name="numberedChildren" index="360J5l" />
       </concept>
@@ -23,17 +24,22 @@
     <node concept="360J5g" id="4mEQGI3FjXx" role="360J5D">
       <property role="3CGM02" value="1" />
       <property role="360J5F" value="Chapter" />
+      <property role="25YqC" value="8" />
     </node>
     <node concept="360J5g" id="4mEQGI3FAM2" role="360J5D">
       <property role="3CGM02" value="2" />
+      <property role="25YqC" value="4" />
       <node concept="360J5g" id="4mEQGI3FCjJ" role="360J5l">
         <property role="3CGM02" value="2" />
+        <property role="25YqC" value="7" />
       </node>
       <node concept="360J5g" id="4mEQGI3FAM5" role="360J5l">
         <property role="3CGM02" value="1" />
+        <property role="25YqC" value="2" />
       </node>
       <node concept="360J5g" id="4mEQGI3FCms" role="360J5l">
         <property role="3CGM02" value="3" />
+        <property role="25YqC" value="12" />
       </node>
     </node>
   </node>

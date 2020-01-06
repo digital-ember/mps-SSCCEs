@@ -7,7 +7,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="1sp2" ref="r:99948152-c7f9-4718-af98-42fb337ca537(nn.structure)" implicit="true" />
+    <import index="1sp2" ref="r:99948152-c7f9-4718-af98-42fb337ca537(nn.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
